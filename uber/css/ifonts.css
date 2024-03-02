@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../ifonts/icomoon.eot?bswylu');
+  src:  url('../ifonts/icomoon.eot?bswylu#iefix') format('embedded-opentype'),
+    url('../ifonts/icomoon.ttf?bswylu') format('truetype'),
+    url('../ifonts/icomoon.woff?bswylu') format('woff'),
+    url('../ifonts/icomoon.svg?bswylu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-artstation:before {
+  content: "\e900";
+  color: #13aff0;
+}
+.icon-at-and-t:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-buzzfeed:before {
+  content: "\e902";
+  color: #e32;
+}
+.icon-facebook-f-brands:before {
+  content: "\e903";
+}
